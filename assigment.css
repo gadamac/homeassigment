@@ -1,0 +1,51 @@
+.heading{
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 0cqh;
+    color: blue;
+    border: 30pt;
+    background-color: #a9c0c0;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+.heading2
+{
+    margin-top: 79px;
+    margin-left: 76px;
+    margin-right: 67px;
+    margin-bottom: 50px;
+    text-align: right 90;
+    text-decoration: salmon;
+    text-overflow: inherit;
+    text-size-adjust: 20px;
+    color: rgb(19, 19, 18);
+    background-color: beige;
+    background-image: url(awais.jpg.jpg ) image-set(text-shadow);
+}
+.sport
+{
+    background-color: rgb(174, 130, 76);
+    text-align: left;
+    color: teal;
+    text-decoration-color: black;
+}
+.glist
+{
+    text-align: center;
+    background-color: aqua;
+    text-decoration: saddlebrown;
+}
+.awais
+{
+    text-overflow: 0;
+    text-align: left;
+    text-decoration: black;
+    height: 600;
+    width: 400;
+}
+.table
+{
+    color: black;
+}
