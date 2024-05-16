@@ -1,0 +1,42 @@
+*{ margin: 0px;
+    padding: 0px;
+
+}
+
+.main{
+    display: flex;
+    background-color: green;
+    padding: 90px;
+
+}
+
+.main-child-1{
+    width: 48%;
+    color: white;
+    align-items: center;
+}
+h2
+{
+    text-align: center;
+}
+p
+{
+    margin-top: 59px;
+    margin-right: 10px;
+padding: 50px;
+border: 1px solid red;
+#img{
+    width: 400px;
+    height: 400px;
+    resize: both;
+}
+#t2
+{
+border-collapse: separate;
+border-spacing: 10pt;
+border: 4px dotted  rgb(112, 86, 112);
+}
+tr
+{
+border: 6px solid black;
+}

@@ -1,0 +1,59 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    }
+    .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    .navbar li {
+    margin-right: 40px;
+    }
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        }
+        .navbar a:hover {
+        color: #ccc;
+        }
+        section {
+        padding: 50px;
+        }
+        #home {
+        background-color: #c51111;
+        }
+        #about {
+        background-color: #e2d10e;
+        }
+        #gallery {
+        background-color: #bae69c;
+        }
+        #gallery {
+            background-color: #16e03b;
+            }
+            #services {
+            background-color: #4c1bd2;
+            }
+            #contact {
+            background-color: #d21c1c;
+            }
+            JavaScript (in script.js file):
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY;
+            if (scrollPosition > 200) {
+            navbar.classList.add('scrolled');
+            } else {
+            navbar.classList.remove('scrolled');
+            }
+            });
+                        
